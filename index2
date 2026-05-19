@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesly Navarro — Data Science & AI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- CURSOR -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <div class="nav-logo">LN<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="grid-lines"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span> Disponible para colaborar
+            </div>
+            <h1 class="hero-name">
+                <span class="line-1">Lesly Brenda</span>
+                <span class="line-2">Navarro <em>Serva</em></span>
+            </h1>
+            <p class="hero-role">Data Scientist & AI Enthusiast</p>
+            <p class="hero-desc">
+                Transformo datos complejos en decisiones estratégicas.<br> Especializada en machine learning, análisis predictivo e inteligencia artificial.
+            </p>
+            <div class="hero-cta">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-ghost">Contactarme</a>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="data-card card-float-1">
+                <div class="dc-label">Accuracy</div>
+                <div class="dc-value">97.4%</div>
+                <div class="dc-bar">
+                    <div class="dc-fill" style="width:97.4%"></div>
+                </div>
+            </div>
+            <div class="data-card card-float-2">
+                <div class="dc-label">Proyectos</div>
+                <div class="dc-value">5+</div>
+                <div class="dc-dots">
+                    <span class="dot-fill"></span><span class="dot-fill"></span>
+                    <span class="dot-fill"></span><span class="dot-fill"></span>
+                    <span class="dot-fill"></span>
+                </div>
+            </div>
+            <div class="data-card card-float-3">
+                <div class="dc-icon">🧠</div>
+                <div class="dc-label">Deep Learning</div>
+                <div class="dc-sub">TensorFlow · PyTorch</div>
+            </div>
+            <div class="avatar-ring">
+                <div class="avatar-inner">LN</div>
+                <svg class="ring-svg" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="url(#ringGrad)" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <defs>
+            <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#a78bfa"/>
+              <stop offset="100%" stop-color="#38bdf8"/>
+            </linearGradient>
+          </defs>
+        </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="section" id="sobre-mi">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 — Sobre mí</span>
+                <h2 class="section-title">Conóceme un poco</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hola, soy <strong>Lesly</strong> — científica de datos con pasión por convertir números en narrativas y algoritmos en soluciones reales. Me especializo en
+                        <strong>machine learning</strong>, análisis estadístico e inteligencia artificial aplicada.</p>
+                    <p>Disfruto de cada fase del ciclo de datos: desde la limpieza y exploración hasta el despliegue de modelos en producción. Creo firmemente que los datos bien interpretados tienen el poder de transformar industrias.</p>
+                    <p>Actualmente enfocada en proyectos de <strong>NLP, visión por computadora</strong> y análisis predictivo. Siempre aprendiendo, siempre construyendo.</p>
+                    <div class="about-stats">
+                        <div class="astat">
+                            <div class="astat-num">5+</div>
+                            <div class="astat-label">Proyectos</div>
+                        </div>
+                        <div class="astat">
+                            <div class="astat-num">3+</div>
+                            <div class="astat-label">Años exp.</div>
+                        </div>
+                        <div class="astat">
+                            <div class="astat-num">10+</div>
+                            <div class="astat-label">Tecnologías</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <div class="profile-initials">LN</div>
+                        <div>
+                            <div class="profile-name">Lesly Navarro Serva</div>
+                            <div class="profile-role">Data Scientist · AI</div>
+                        </div>
+                    </div>
+                    <div class="about-card-body">
+                        <div class="info-row"><span class="info-icon">📍</span> Huancayo, Perú</div>
+                        <div class="info-row"><span class="info-icon">🎓</span> Ciencia de Datos / IA</div>
+                        <div class="info-row"><span class="info-icon">💼</span> Disponible para proyectos</div>
+                        <div class="info-row"><span class="info-icon">🌐</span> Español · Inglés</div>
+                    </div>
+                    <a href="#contacto" class="btn btn-primary btn-full">Trabajemos juntos →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section section-dark" id="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 — Proyectos</span>
+                <h2 class="section-title">Mis trabajos</h2>
+                <p class="section-desc">Algunos de los proyectos en los que he trabajado. Haz clic para ver más detalles.</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="viz">Visualización</button>
+                <button class="filter-btn" data-filter="dl">Deep Learning</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-img" style="background: linear-gradient(135deg,#1e1b4b,#312e81)">
+                        <div class="project-icon">📊</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">Machine Learning</span>
+                            <span class="ptag">Python</span>
+                        </div>
+                        <h3 class="project-title">Modelo Predictivo de Ventas</h3>
+                        <p class="project-desc">Modelo de regresión para predecir ventas mensuales con un accuracy del 94%. Análisis de features, validación cruzada y optimización de hiperparámetros.</p>
+                        <div class="project-tech">
+                            <span>Scikit-learn</span><span>Pandas</span><span>XGBoost</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="nlp">
+                    <div class="project-img" style="background: linear-gradient(135deg,#064e3b,#065f46)">
+                        <div class="project-icon">💬</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">NLP</span>
+                            <span class="ptag">Transformers</span>
+                        </div>
+                        <h3 class="project-title">Análisis de Sentimientos</h3>
+                        <p class="project-desc">Sistema de clasificación de sentimientos en reseñas de productos usando BERT fine-tuned. Procesamiento de más de 50,000 reseñas en español.</p>
+                        <div class="project-tech">
+                            <span>HuggingFace</span><span>PyTorch</span><span>BERT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="viz">
+                    <div class="project-img" style="background: linear-gradient(135deg,#7c2d12,#9a3412)">
+                        <div class="project-icon">📈</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">Visualización</span>
+                            <span class="ptag">Dashboard</span>
+                        </div>
+                        <h3 class="project-title">Dashboard de Salud Pública</h3>
+                        <p class="project-desc">Dashboard interactivo para visualización de indicadores de salud pública en Junín. Integración con datos abiertos del MINSA.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span><span>Python</span><span>SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dl">
+                    <div class="project-img" style="background: linear-gradient(135deg,#1e3a5f,#1e40af)">
+                        <div class="project-icon">🖼️</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">Deep Learning</span>
+                            <span class="ptag">CV</span>
+                        </div>
+                        <h3 class="project-title">Clasificador de Imágenes CNN</h3>
+                        <p class="project-desc">Red neuronal convolucional para clasificación de imágenes médicas con 97% de precisión. Modelo desplegado como API REST.</p>
+                        <div class="project-tech">
+                            <span>TensorFlow</span><span>Keras</span><span>FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-img" style="background: linear-gradient(135deg,#3b1c5f,#5b21b6)">
+                        <div class="project-icon">🔍</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">Clustering</span>
+                            <span class="ptag">Unsupervised</span>
+                        </div>
+                        <h3 class="project-title">Segmentación de Clientes</h3>
+                        <p class="project-desc">Análisis de clustering con K-Means y DBSCAN para segmentación de clientes de e-commerce. Identificación de 6 segmentos de comportamiento.</p>
+                        <div class="project-tech">
+                            <span>Scikit-learn</span><span>Seaborn</span><span>Plotly</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="nlp">
+                    <div class="project-img" style="background: linear-gradient(135deg,#134e4a,#0f766e)">
+                        <div class="project-icon">🤖</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="ptag">NLP</span>
+                            <span class="ptag">LLM</span>
+                        </div>
+                        <h3 class="project-title">Chatbot Educativo con RAG</h3>
+                        <p class="project-desc">Sistema de preguntas y respuestas sobre documentos académicos usando RAG (Retrieval-Augmented Generation) con LangChain.</p>
+                        <div class="project-tech">
+                            <span>LangChain</span><span>OpenAI</span><span>FAISS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="plink">Ver código →</a>
+                            <a href="#" class="plink plink-demo">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 — Habilidades</span>
+                <h2 class="section-title">Stack técnico</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🐍</div>
+                    <h3 class="skill-cat-title">Lenguajes</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>R</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Bash</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🧠</div>
+                    <h3 class="skill-cat-title">ML / IA</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>HuggingFace</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">📊</div>
+                    <h3 class="skill-cat-title">Datos & Viz</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Pandas / NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Matplotlib / Seaborn</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Tableau</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">☁️</div>
+                    <h3 class="skill-cat-title">Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Git / GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--pct:78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-dark" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 — Contacto</span>
+                <h2 class="section-title">Hablemos</h2>
+                <p class="section-desc">¿Tienes un proyecto en mente? Me encantaría escucharte.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="cc-icon">📧</div>
+                        <div>
+                            <div class="cc-label">Email</div>
+                            <div class="cc-value">lesly.navarro@email.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon">💻</div>
+                        <div>
+                            <div class="cc-label">GitHub</div>
+                            <div class="cc-value">github.com/leslynavarro</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon">🔗</div>
+                        <div>
+                            <div class="cc-label">LinkedIn</div>
+                            <div class="cc-value">linkedin.com/in/leslynavarro</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon">📍</div>
+                        <div>
+                            <div class="cc-label">Ubicación</div>
+                            <div class="cc-value">Huancayo, Perú</div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu nombre completo" />
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="tu@email.com" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea rows="4" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Enviar mensaje ✉️</button>
+                    <div class="form-note">* Recuerda actualizar este formulario con tu servicio real (Formspree, EmailJS, etc.)</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">LN<span class="dot">.</span></div>
+                <p class="footer-text">Diseñado y construido por <strong>Lesly Navarro Serva</strong> · Huancayo, Perú</p>
+                <div class="footer-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
