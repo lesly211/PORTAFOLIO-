@@ -39,7 +39,7 @@ body {
     background: var(--bg);
     color: var(--text);
     overflow-x: hidden;
-    cursor: none;
+    cursor: auto;
 }
 
 a {
@@ -157,7 +157,7 @@ a {
     gap: 5px;
     background: none;
     border: none;
-    cursor: none;
+    cursor: auto;
     padding: 4px;
 }
 
